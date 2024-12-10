@@ -11,22 +11,22 @@ int nguyenTo(int n){
 	return 1;
 }
 int main(){
-	int number1, number2;
+	int x, y;
 	printf("Ban hay nhap so nguyen thu nhat: ");
-	scanf("%d", &number1);
+	scanf("%d", &x);
 	printf("Ban hay nhap so nguyen thu hai: ");
-	scanf("%d", &number2);
+	scanf("%d", &y);
 	
-	if(nguyenTo(number1)){
-		printf("%d la so nguyen to\n", number1);
+	if(nguyenTo(x)){
+		printf("%d la so nguyen to\n", x);
 	}else{
-		printf("%d khong phai la so nguyen to\n", number1);
+		printf("%d khong phai la so nguyen to\n", x);
 	}
 	
-	if(nguyenTo(number2)){
-		printf("%d la so nguyen to\n", number2);
+	if(nguyenTo(y)){
+		printf("%d la so nguyen to\n", y);
 	}else{
-		printf("%d khong phai la so nguyen to\n", number2);
+		printf("%d khong phai la so nguyen to\n", y);
 	}
 	
 	return 0;
