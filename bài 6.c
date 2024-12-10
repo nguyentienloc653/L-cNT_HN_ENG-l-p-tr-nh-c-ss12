@@ -18,7 +18,7 @@ int main(){
 	if(soHoanHao(number1)){
 		printf("%d la so hoan hao\n", number1);
 	}else{
-		printf("%d KHONG phai la so hoan hao\n", number1);
+		printf("%d khong phai la so hoan hao\n", number1);
 	}
 	
 	if(soHoanHao(number2)){
