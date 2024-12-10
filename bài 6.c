@@ -9,22 +9,22 @@ int soHoanHao(int n){
 	return sum==n;
 }
 int main(){
-	int number1, number2;
+	int x, y;
 	printf("Ban hay nhap so nguyen thu nhat: ");
-	scanf("%d", &number1);
+	scanf("%d", &x);
 	printf("Ban hay nhap so nguyen thu hai: ");
-	scanf("%d", &number2);
+	scanf("%d", &y);
 	
-	if(soHoanHao(number1)){
-		printf("%d la so hoan hao\n", number1);
+	if(soHoanHao(x)){
+		printf("%d la so hoan hao\n", x);
 	}else{
-		printf("%d khong phai la so hoan hao\n", number1);
+		printf("%d khong phai la so hoan hao\n", x);
 	}
 	
-	if(soHoanHao(number2)){
-		printf("%d la so hoan hao\n", number2);
+	if(soHoanHao(y)){
+		printf("%d la so hoan hao\n", y);
 	}else{
-		printf("%d KHONG phai la so hoan hao\n", number2);
+		printf("%d khong phai la so hoan hao\n", y);
 	}
 	
 	return 0;
