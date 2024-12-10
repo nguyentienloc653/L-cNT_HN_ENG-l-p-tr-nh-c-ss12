@@ -20,13 +20,13 @@ int main(){
 	if(nguyenTo(number1)){
 		printf("%d la so nguyen to\n", number1);
 	}else{
-		printf("%d KHONG phai la so nguyen to\n", number1);
+		printf("%d khong phai la so nguyen to\n", number1);
 	}
 	
 	if(nguyenTo(number2)){
 		printf("%d la so nguyen to\n", number2);
 	}else{
-		printf("%d KHONG phai la so nguyen to\n", number2);
+		printf("%d khong phai la so nguyen to\n", number2);
 	}
 	
 	return 0;
